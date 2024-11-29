@@ -1,27 +1,8 @@
-# Configuración en MacOS y Linux
+El archivo `clean_data.py` implementa el algoritmo 'fingerprint' para collisión
+de textos, el cual es utilizado para unificar cadenas de texto que representan
+la misma entidad.
 
-Ejecute los siguientes comandos en el terminal:
+Complete el código siguiendo las instrucciones que aparecen en `clean_data.py`.
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-source setup.sh
-```
-
-# Configuración en Windows
-
-Ejecute los siguientes comandos en el terminal:
-
-```bash
-python3 -m venv .venv
-.venv\Scripts\activate
-setup
-```
-
-# Ejecución de pruebas
-
-Ejecute el siguiente comando en el terminal:
-
-```bash
-pytest
-```
+Referencia
+https://openrefine.org/docs/technical-reference/clustering-in-depth
